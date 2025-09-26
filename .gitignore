@@ -1,1 +1,48 @@
-node_modules
+# Diretório de dependências
+node_modules/
+
+# Diretórios de build/output
+dist/
+build/
+
+# Cache de ferramentas (Jest, Babel, etc.)
+.cache/
+jest-cache/
+coverage/
+
+# Arquivos de log
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dados temporários de execução
+pids/
+*.pid
+*.pid.lock
+
+# Arquivos de variáveis de ambiente
+.env
+.env.*
+!.env.example  # mantém um modelo versionado, se quiser
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de lock 
+# package-lock.json
+# yarn.lock
+
+# Editores/IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de TypeScript
+*.tsbuildinfo
+
+# Arquivos locais de configuração
+*.local.js

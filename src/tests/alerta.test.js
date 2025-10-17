@@ -1,5 +1,5 @@
-const { classificarAlerta } = require('../alerta');
+const { classificarAlerta } = require("../alerta");
 
 test("alerta alto", () => {
-    expect(classificarAlerta(70)).toBe("Alto");
+  expect(classificarAlerta(70)).toBe("Alto");
 });

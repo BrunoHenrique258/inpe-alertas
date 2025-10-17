@@ -1,5 +1,5 @@
 const api = {
-  enviar: jest.fn(() => "Simulado!")
+  enviar: jest.fn(() => "Simulado!"),
 };
 
 test("simulação de envio", () => {

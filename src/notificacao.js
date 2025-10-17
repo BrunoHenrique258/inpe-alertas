@@ -1,5 +1,5 @@
 function enviarNotificacao(alerta) {
-    return `Notificação enviada: ${alerta}`;
+  return `Notificação enviada: ${alerta}`;
 }
 
 module.exports = { enviarNotificacao };
